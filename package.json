@@ -1,0 +1,22 @@
+{
+  "name": "google-analytics-persister",
+  "version": "1.0.0",
+  "description": "Read data from google analytics and persist them in Time Series Database (InfluxDB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/holidaycheck/google-analytics-persister.git"
+  },
+  "keywords": [
+    "ga"
+  ],
+  "author": "HolidayCheck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holidaycheck/google-analytics-persister/issues"
+  },
+  "homepage": "https://github.com/holidaycheck/google-analytics-persister#readme"
+}
