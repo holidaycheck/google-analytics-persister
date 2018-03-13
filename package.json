@@ -4,7 +4,9 @@
   "description": "Read data from google analytics and persist them in Time Series Database (InfluxDB)",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "ava",
+    "test:watch": "ava --watch",
+    "pretest": "npm run lint",
     "lint": "eslint ."
   },
   "repository": {
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/holidaycheck/google-analytics-persister#readme",
   "devDependencies": {
+    "ava": "^0.25.0",
     "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0"
   }
