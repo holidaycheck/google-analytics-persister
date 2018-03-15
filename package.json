@@ -4,6 +4,7 @@
   "description": "Read data from google analytics and persist them in Time Series Database (InfluxDB)",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "ava",
     "test:watch": "ava --watch",
     "pretest": "npm run lint",
