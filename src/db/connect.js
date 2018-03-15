@@ -7,12 +7,8 @@ module.exports = () => new Influx.InfluxDB({
     schema: [
         {
             measurement: 'speed_score',
-            fields: {
-                value: Influx.FieldType.INTEGER
-            },
-            tags: [
-                'page'
-            ]
+            fields: { value: Influx.FieldType.INTEGER },
+            tags: ['page']
         }
     ]
 });
