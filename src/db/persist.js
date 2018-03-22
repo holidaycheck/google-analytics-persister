@@ -3,7 +3,7 @@ const connect = require('./connect');
 module.exports = (page, value) => {
     connect().writePoints([
         {
-            measurement: 'speed_score',
+            measurement: 'page_speed_insights_speed_score',
             tags: { page },
             fields: { value }
         }
